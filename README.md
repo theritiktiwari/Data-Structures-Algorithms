@@ -373,3 +373,75 @@ For DSA Resources : [Click here](https://github.com/theritiktiwari/dev-resources
 | Trie | [Implement a Phone Directory](https://practice.geeksforgeeks.org/problems/phone-directory/0) |
 | Trie | [Print unique rows in a given boolean matrix](https://practice.geeksforgeeks.org/problems/unique-rows-in-boolean-matrix/1) |
 | <hr/> | <hr/> |
+| Dynamic Programming | [Coin ChangeProblem](https://practice.geeksforgeeks.org/problems/coin-change2448/1) |
+| Dynamic Programming | [Knapsack Problem](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0) |
+| Dynamic Programming | [Binomial Coefficient Problem](https://practice.geeksforgeeks.org/problems/ncr1019/1) |
+| Dynamic Programming | [Permutation Coefficient Problem](https://www.geeksforgeeks.org/permutation-coefficient/) |
+| Dynamic Programming | [Program for nth Catalan Number](https://www.geeksforgeeks.org/program-nth-catalan-number/) |
+| Dynamic Programming | [Matrix Chain Multiplication ](https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/) |
+| Dynamic Programming | [Edit Distance](https://practice.geeksforgeeks.org/problems/edit-distance3702/1) |
+| Dynamic Programming | [Subset Sum Problem](https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1) |
+| Dynamic Programming | [Friends Pairing Problem](https://practice.geeksforgeeks.org/problems/friends-pairing-problem5425/1) |
+| Dynamic Programming | [Gold Mine Problem](https://www.geeksforgeeks.org/gold-mine-problem/) |
+| Dynamic Programming | [Assembly Line Scheduling Problem](https://www.geeksforgeeks.org/assembly-line-scheduling-dp-34/) |
+| Dynamic Programming | [Painting the Fence Problem](https://practice.geeksforgeeks.org/problems/painting-the-fence3727/1) |
+| Dynamic Programming | [Maximize The Cut Segments](https://practice.geeksforgeeks.org/problems/cutted-segments/0) |
+| Dynamic Programming | [Longest Common Subsequence](https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0) |
+| Dynamic Programming | [Longest Repeated Subsequence](https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence/0) |
+| Dynamic Programming | [Longest Increasing Subsequence](https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0) |
+| Dynamic Programming | [Space Optimized Solution of LCS](https://www.geeksforgeeks.org/space-optimized-solution-lcs/) |
+| Dynamic Programming | [LCS (Longest Common Subsequence) of three strings](https://practice.geeksforgeeks.org/problems/lcs-of-three-strings/0) |
+| Dynamic Programming | [Maximum Sum Increasing Subsequence](https://practice.geeksforgeeks.org/problems/maximum-sum-increasing-subsequence4749/1) |
+| Dynamic Programming | [Count all subsequences having product less than K](https://www.geeksforgeeks.org/count-subsequences-product-less-k/) |
+| Dynamic Programming | [Longest subsequence such that difference between adjacent is one](https://practice.geeksforgeeks.org/problems/longest-subsequence-such-that-difference-between-adjacents-is-one4724/1) |
+| Dynamic Programming | [Maximum subsequence sum such that no three are consecutive](https://www.geeksforgeeks.org/maximum-subsequence-sum-such-that-no-three-are-consecutive/) |
+| Dynamic Programming | [Egg Dropping Problem](https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle/0) |
+| Dynamic Programming | [Maximum Length Chain of Pairs](https://practice.geeksforgeeks.org/problems/max-length-chain/1) |
+| Dynamic Programming | [Maximum size square sub-matrix with all 1s](https://practice.geeksforgeeks.org/problems/largest-square-formed-in-a-matrix/0) |
+| Dynamic Programming | [Maximum sum of pairs with specific difference](https://practice.geeksforgeeks.org/problems/pairs-with-specific-difference/0) |
+| Dynamic Programming | [Min Cost Path Problem](https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1) |
+| Dynamic Programming | [Maximum difference of zeros and ones in binary string](https://practice.geeksforgeeks.org/problems/maximum-difference-of-zeros-and-ones-in-binary-string4111/1) |
+| Dynamic Programming | [Minimum number of jumps to reach end](https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0) |
+| Dynamic Programming | [Minimum cost to fill given weight in a bag](https://practice.geeksforgeeks.org/problems/minimum-cost-to-fill-given-weight-in-a-bag1956/1) |
+| Dynamic Programming | [Minimum removals from array to make max – min <= K](https://www.geeksforgeeks.org/minimum-removals-array-make-max-min-k/) |
+| Dynamic Programming | [Longest Common Substring](https://practice.geeksforgeeks.org/problems/longest-common-substring/0) |
+| Dynamic Programming | [Count number of ways to reach a given score in a game](https://practice.geeksforgeeks.org/problems/reach-a-given-score/0) |
+| Dynamic Programming | [Count Balanced Binary Trees of Height h](https://practice.geeksforgeeks.org/problems/bbt-counter/0) |
+| Dynamic Programming | [Largest Sum Contiguous Subarray [VVVV IMP]](https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0) |
+| Dynamic Programming | [Smallest sum contiguous subarray](https://www.geeksforgeeks.org/smallest-sum-contiguous-subarray/) |
+| Dynamic Programming | [Unbounded Knapsack (Repetition of items allowed)](https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1) |
+| Dynamic Programming | [Word Break Problem](https://practice.geeksforgeeks.org/problems/word-break/0) |
+| Dynamic Programming | [Largest Independent Set Problem](https://www.geeksforgeeks.org/largest-independent-set-problem-dp-26/) |
+| Dynamic Programming | [Partition problem](https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1) |
+| Dynamic Programming | [Longest Palindromic Subsequence](https://www.geeksforgeeks.org/longest-palindromic-subsequence-dp-12/) |
+| Dynamic Programming | [Count All Palindromic Subsequence in a given String](https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1) |
+| Dynamic Programming | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) |
+| Dynamic Programming | [Longest alternating subsequence](https://practice.geeksforgeeks.org/problems/longest-alternating-subsequence/0) |
+| Dynamic Programming | [Weighted Job Scheduling](https://www.geeksforgeeks.org/weighted-job-scheduling/) |
+| Dynamic Programming | [Coin game winner where every player has three choices](https://www.geeksforgeeks.org/coin-game-winner-every-player-three-choices/) |
+| Dynamic Programming | [Count Derangements (Permutation such that no element appears in its original position) [IMPORTANT]](https://www.geeksforgeeks.org/count-derangements-permutation-such-that-no-element-appears-in-its-original-position/) |
+| Dynamic Programming | [Maximum profit by buying and selling a share at most twice [IMP]](https://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-a-share-at-most-twice/) |
+| Dynamic Programming | [Optimal Strategy for a Game](https://practice.geeksforgeeks.org/problems/optimal-strategy-for-a-game/0) |
+| Dynamic Programming | [Optimal Binary Search Tree](https://www.geeksforgeeks.org/optimal-binary-search-tree-dp-24/) |
+| Dynamic Programming | [Palindrome PartitioningProblem](https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1) |
+| Dynamic Programming | [Word Wrap Problem](https://practice.geeksforgeeks.org/problems/word-wrap/0) |
+| Dynamic Programming | [Mobile Numeric Keypad Problem [IMP]](https://practice.geeksforgeeks.org/problems/mobile-numeric-keypad5456/1) |
+| Dynamic Programming | [Boolean Parenthesization Problem](https://practice.geeksforgeeks.org/problems/boolean-parenthesization/0) |
+| Dynamic Programming | [Largest rectangular sub-matrix whose sum is 0](https://www.geeksforgeeks.org/largest-rectangular-sub-matrix-whose-sum-0/) |
+| Dynamic Programming | [Largest area rectangular sub-matrix with equal number of 1's and 0's [IMP]](https://www.geeksforgeeks.org/largest-area-rectangular-sub-matrix-equal-number-1s-0s/) |
+| Dynamic Programming | [Maximum sum rectangle in a 2D matrix](https://practice.geeksforgeeks.org/problems/maximum-sum-rectangle/0) |
+| Dynamic Programming | [Maximum profit by buying and selling a share at most k times](https://practice.geeksforgeeks.org/problems/maximum-profit4657/1) |
+| Dynamic Programming | [Find if a string is interleaved of two other strings](https://practice.geeksforgeeks.org/problems/interleaved-strings/1) |
+| Dynamic Programming | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/) |
+| <hr/> | <hr/> |
+| Bit Manipulation | [Count set bits in an integer](https://practice.geeksforgeeks.org/problems/set-bits0143/1) |
+| Bit Manipulation | [Find the two non-repeating elements in an array of repeating elements](https://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1) |
+| Bit Manipulation | [Count number of bits to be flipped to convert A to B](https://practice.geeksforgeeks.org/problems/bit-difference/0) |
+| Bit Manipulation | [Count total set bits in all numbers from 1 to n](https://practice.geeksforgeeks.org/problems/count-total-set-bits/0) |
+| Bit Manipulation | [Program to find whether a no is power of two](https://practice.geeksforgeeks.org/problems/power-of-2/0) |
+| Bit Manipulation | [Find position of the only set bit](https://practice.geeksforgeeks.org/problems/find-position-of-set-bit3706/1) |
+| Bit Manipulation | [Copy set bits in a range](https://www.geeksforgeeks.org/copy-set-bits-in-a-range/) |
+| Bit Manipulation | [Divide two integers without using multiplication, division and mod operator](https://www.geeksforgeeks.org/divide-two-integers-without-using-multiplication-division-mod-operator/) |
+| Bit Manipulation | [Calculate square of a number without using *, / and pow()](https://www.geeksforgeeks.org/calculate-square-of-a-number-without-using-and-pow/#:~:text=Given%20an%20integer%20n%2C%20calculate,*%2C%20%2F%20and%20pow().&text=A%20Simple%20Solution%20is%20to%20repeatedly%20add%20n%20to%20result.) |
+| Bit Manipulation | [Power Set](https://practice.geeksforgeeks.org/problems/power-set4302/1) |
+| <hr/> | <hr/> |
