@@ -1,16 +1,16 @@
 # Data Structures & Algroithms
 
 <p align="center">
-  <a href="https://github.com/theritiktiwari/Data-Structures-Algroithms/fork" target="blank">
+  <a href="https://github.com/theritiktiwari/Data-Structures-Algorithms/fork" target="blank">
     <img src="https://shields.io/github/forks/theritiktiwari/Data-Structures-Algroithms?color=6063C5&style=for-the-badge" alt="Developer Resources Forks"/>
   </a> &nbsp;
-  <a href="https://github.com/theritiktiwari/Data-Structures-Algroithms/stargazers" target="blank">
+  <a href="https://github.com/theritiktiwari/Data-Structures-Algorithms/stargazers" target="blank">
     <img src="https://shields.io/github/stars/theritiktiwari/Data-Structures-Algroithms?color=6063C5&style=for-the-badge" alt="Developer Resources stars"/>
   </a>&nbsp;
-  <a href="https://github.com/theritiktiwari/Data-Structures-Algroithms/issues">
+  <a href="https://github.com/theritiktiwari/Data-Structures-Algorithms/issues">
     <img src="https://shields.io/github/issues/theritiktiwari/Data-Structures-Algroithms?color=default&style=for-the-badge" alt="Developer Resources issues"/>
   </a>&nbsp;
-  <a href="https://github.com/theritiktiwari/Data-Structures-Algroithms/pulls" target="blank">
+  <a href="https://github.com/theritiktiwari/Data-Structures-Algorithms/pulls" target="blank">
     <img src="https://shields.io/github/issues-pr/theritiktiwari/Data-Structures-Algroithms?color=default&style=for-the-badge" alt="Developer Resources pull-requests"/>
   </a>&nbsp;
 </p>
