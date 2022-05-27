@@ -2,16 +2,16 @@
 
 <p align="center">
   <a href="https://github.com/theritiktiwari/Data-Structures-Algorithms/fork" target="blank">
-    <img src="https://shields.io/github/forks/theritiktiwari/Data-Structures-Algroithms?color=6063C5&style=for-the-badge" alt="Developer Resources Forks"/>
+    <img src="https://shields.io/github/forks/theritiktiwari/Data-Structures-Algorithms?color=6063C5&style=for-the-badge" alt="Developer Resources Forks"/>
   </a> &nbsp;
   <a href="https://github.com/theritiktiwari/Data-Structures-Algorithms/stargazers" target="blank">
-    <img src="https://shields.io/github/stars/theritiktiwari/Data-Structures-Algroithms?color=6063C5&style=for-the-badge" alt="Developer Resources stars"/>
+    <img src="https://shields.io/github/stars/theritiktiwari/Data-Structures-Algorithms?color=6063C5&style=for-the-badge" alt="Developer Resources stars"/>
   </a>&nbsp;
   <a href="https://github.com/theritiktiwari/Data-Structures-Algorithms/issues">
-    <img src="https://shields.io/github/issues/theritiktiwari/Data-Structures-Algroithms?color=default&style=for-the-badge" alt="Developer Resources issues"/>
+    <img src="https://shields.io/github/issues/theritiktiwari/Data-Structures-Algorithms?color=default&style=for-the-badge" alt="Developer Resources issues"/>
   </a>&nbsp;
   <a href="https://github.com/theritiktiwari/Data-Structures-Algorithms/pulls" target="blank">
-    <img src="https://shields.io/github/issues-pr/theritiktiwari/Data-Structures-Algroithms?color=default&style=for-the-badge" alt="Developer Resources pull-requests"/>
+    <img src="https://shields.io/github/issues-pr/theritiktiwari/Data-Structures-Algorithms?color=default&style=for-the-badge" alt="Developer Resources pull-requests"/>
   </a>&nbsp;
 </p>
 
@@ -318,7 +318,7 @@ For DSA Resources : [Click here](https://github.com/theritiktiwari/dev-resources
 | Stack & Queue | [Design a Stack that supports getMin() in O(1) time and O(1) extra space](https://practice.geeksforgeeks.org/problems/special-stack/1) |
 | Stack & Queue | [Find the next Greater element](https://practice.geeksforgeeks.org/problems/next-larger-element/0) |
 | Stack & Queue | [The celebrity Problem](https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1) |
-| Stack & Queue | [Arithmetic Expression evaluation](https://www.geeksforgeeks.org/arithmetic-expression-evalution/#:~:text=The%20stack%20organization%20is%20very,i.e.%2C%20A%20%2B%20B).) |
+| Stack & Queue | [Arithmetic Expression evaluation](https://www.geeksforgeeks.org/arithmetic-expression-evalution/#:~:text=The%20stack%20organization%20is%20very,i.e.%2C%20A%20%2B%20B) |
 | Stack & Queue | [Evaluation of Postfix expression](https://practice.geeksforgeeks.org/problems/evaluation-of-postfix-expression/0) |
 | Stack & Queue | [Implement a method to insert an element at its bottom without using any other data structure](https://stackoverflow.com/questions/45130465/inserting-at-the-end-of-stack) |
 | Stack & Queue | [Reverse a stack using recursion](https://www.geeksforgeeks.org/reverse-a-stack-using-recursion/) |
@@ -444,4 +444,3 @@ For DSA Resources : [Click here](https://github.com/theritiktiwari/dev-resources
 | Bit Manipulation | [Divide two integers without using multiplication, division and mod operator](https://www.geeksforgeeks.org/divide-two-integers-without-using-multiplication-division-mod-operator/) |
 | Bit Manipulation | [Calculate square of a number without using *, / and pow()](https://www.geeksforgeeks.org/calculate-square-of-a-number-without-using-and-pow/#:~:text=Given%20an%20integer%20n%2C%20calculate,*%2C%20%2F%20and%20pow().&text=A%20Simple%20Solution%20is%20to%20repeatedly%20add%20n%20to%20result.) |
 | Bit Manipulation | [Power Set](https://practice.geeksforgeeks.org/problems/power-set4302/1) |
-| <hr/> | <hr/> |
