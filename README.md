@@ -7,6 +7,9 @@
   <a href="https://github.com/theritiktiwari/Data-Structures-Algorithms/stargazers" target="blank">
     <img src="https://shields.io/github/stars/theritiktiwari/Data-Structures-Algorithms?color=6063C5&style=for-the-badge" alt="Developer Resources stars"/>
   </a>&nbsp;
+    <a href="https://github.com/theritiktiwari/Data-Structures-Algorithms/watchers" target="blank">
+    <img src="https://shields.io/github/watchers/theritiktiwari/Data-Structures-Algorithms?color=6063C5&style=for-the-badge" alt="Developer Resources stars"/>
+  </a>&nbsp;
   <a href="https://github.com/theritiktiwari/Data-Structures-Algorithms/issues">
     <img src="https://shields.io/github/issues/theritiktiwari/Data-Structures-Algorithms?color=default&style=for-the-badge" alt="Developer Resources issues"/>
   </a>&nbsp;
