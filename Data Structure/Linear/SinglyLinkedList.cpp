@@ -102,7 +102,7 @@ class SinglyLinkedList {
 
         void search(Node* &head, int data){
             Node* ptr = head;
-            while(ptr->next != NULL){
+            while(ptr != NULL){
                 if(ptr->data == data){
                     cout << data << " found in the Linked List" << endl;
                     return;
