@@ -120,7 +120,7 @@ int main(){
     SinglyLinkedList *sll = new SinglyLinkedList();
 
     int choice;
-    while(choice != 9){
+    while(choice != 7){
         cout << "\n\n-- Select the correct option --\n";
         cout << "1. Insert at the Beginning\n";
         cout << "2. Insert at the End\n";
