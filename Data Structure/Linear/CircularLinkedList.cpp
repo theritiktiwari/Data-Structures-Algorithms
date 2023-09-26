@@ -1,0 +1,222 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+class Node{
+    public:
+        int data;
+        Node *next;
+
+        Node(int data){
+            this->data = data;
+            this->next = NULL;
+        }
+
+        ~Node(){
+            if(this->next != NULL){
+                this->next = NULL;
+                delete next;
+            }
+            cout << "Node with value " << this->data << " will be deleted" << endl;
+        }
+};
+
+class CircularLinkedList {
+    public:
+        void print(Node *head){
+            Node *ptr = head;
+            if(head == NULL) {
+                cout << "Empty List" << endl;
+                return;
+            }
+            cout << "...(HEAD) ";
+            while(ptr->next != head){
+                cout << ptr->data << " -> ";
+                ptr = ptr->next;
+            }
+            cout << ptr->data << " -> HEAD..." << endl;
+        }
+
+        void insert_beginning(Node* &head, int data){
+            Node *newNode = new Node(data);
+            if(head == NULL){
+                newNode->next = newNode;
+                head = newNode;
+                return;
+            }
+            Node* ptr = head;
+            while(ptr->next != head) 
+                ptr = ptr->next;
+            
+            newNode->next = head;
+            ptr->next = newNode;
+            head = newNode;
+        }
+
+        void insert_end(Node* &head, int data){
+            Node *newNode = new Node(data);
+            if(head == NULL) {
+                newNode->next = newNode;
+                head = newNode;
+                return;
+            }
+
+            Node *ptr = head;
+            while(ptr->next != head)
+                ptr = ptr->next;
+
+            ptr->next = newNode;
+            newNode->next = head;
+        }
+
+        void insert(Node* &head, int position, int data){
+            if(position == 1 || head == NULL){
+                insert_beginning(head, data);
+                return;
+            }
+
+            Node* ptr = head;
+            
+            for(int i = 1; i < position-1; i++){
+                ptr = ptr->next;
+                if(ptr == head) {
+                    cout << "Cannot add" << endl;
+                    return;
+                }
+            }
+
+            if(ptr->next == head){
+                insert_end(head, data);
+                return;
+            }
+
+            Node* newNode = new Node(data);
+            newNode->next = ptr->next;
+            ptr->next = newNode;
+        }
+
+        void deleteNode(Node* &head, int position){
+            if(head == NULL){
+                cout << "Underflow" << endl;
+                return;
+            }
+
+            if(position == 1){
+                Node* ptr = head;
+                if(ptr->next == head){
+                    head = NULL;
+                    delete ptr;
+                    return;
+                }
+
+                while(ptr->next != head)
+                    ptr = ptr->next;
+                
+                ptr->next = head->next;
+                delete head;
+                head = ptr->next;
+                return;
+            }
+
+            Node* prev = NULL;
+            Node* curr = head;
+            for(int i = 1; i < position; i++){
+                prev = curr;
+                curr = curr->next;
+                if(curr == head){
+                    cout << "Cannot delete" << endl;
+                    return;
+                }
+            }
+
+            prev->next = curr->next;
+            delete curr;
+        }
+
+        void search(Node* &head, int data){
+            Node* ptr = head;
+            if(head == NULL){
+                cout << "Empty List" << endl;
+                return;
+            }
+
+            if(head->data == data){
+                cout << data << " found in the Linked List at node 1" << endl;
+                return;
+            }
+            
+            ptr = ptr->next;
+            int i = 1;
+            while(ptr != head){
+                if(ptr->data == data){
+                    cout << data << " found in the Linked List at node " << (i+1) << endl;
+                    return;
+                }
+                i++;
+                ptr = ptr->next;
+            }
+
+            cout << data << " not found in the Linked List" << endl;
+        }
+};
+
+// Main Function
+int main(){
+    Node *head = NULL;
+    CircularLinkedList *sll = new CircularLinkedList();
+
+    int choice;
+    while(choice != 9){
+        cout << "\n\n-- Select the correct option --\n";
+        cout << "1. Insert at the Beginning\n";
+        cout << "2. Insert at the End\n";
+        cout << "3. Insert at the Specific Node\n";
+        cout << "4. Delete\n";
+        cout << "5. Searching\n";
+        cout << "6. Display\n";
+        cout << "7. Exit\n";
+        cout << "Enter your choice : ";
+        cin >> choice;
+
+        switch (choice){
+            int data, position;
+            case 1:
+                cout << "Enter the element : ";
+                cin >> data;
+                sll->insert_beginning(head, data);
+                break;
+            case 2:
+                cout << "Enter the element : ";
+                cin >> data;
+                sll->insert_end(head, data);
+                break;
+            case 3:
+                cout << "Enter the element : ";
+                cin >> data;
+                cout << "Enter the position : ";
+                cin >> position;
+                sll->insert(head, position, data);
+                break;
+            case 4:
+                cout << "Enter the position : ";
+                cin >> position;
+                sll->deleteNode(head, position);
+                break;
+            case 5:
+                cout << "Enter the element : ";
+                cin >> data;
+                sll->search(head, data);
+                break;
+            case 6:
+                sll->print(head);
+                break;
+            case 7:
+                cout << "Exiting ...\n";
+                exit(0);
+            default:
+                printf("Please choose correct option\n");
+                break;
+        }
+    }
+    return 0;
+}
