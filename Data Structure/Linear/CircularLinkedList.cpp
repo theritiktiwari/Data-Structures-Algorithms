@@ -30,11 +30,11 @@ class CircularLinkedList {
                 return;
             }
             cout << "...(HEAD) ";
-            while(ptr->next != head){
+            do{
                 cout << ptr->data << " -> ";
                 ptr = ptr->next;
-            }
-            cout << ptr->data << " -> HEAD..." << endl;
+            }while(ptr != head);
+            cout << "HEAD..." << endl;
         }
 
         void insert_beginning(Node* &head, int data){
@@ -140,21 +140,15 @@ class CircularLinkedList {
                 return;
             }
 
-            if(head->data == data){
-                cout << data << " found in the Linked List at node 1" << endl;
-                return;
-            }
-            
-            ptr = ptr->next;
-            int i = 1;
-            while(ptr != head){
+            int i = 0;
+            do{
                 if(ptr->data == data){
                     cout << data << " found in the Linked List at node " << (i+1) << endl;
                     return;
                 }
                 i++;
                 ptr = ptr->next;
-            }
+            }while(ptr != head);
 
             cout << data << " not found in the Linked List" << endl;
         }
@@ -166,7 +160,7 @@ int main(){
     CircularLinkedList *sll = new CircularLinkedList();
 
     int choice;
-    while(choice != 9){
+    while(choice != 7){
         cout << "\n\n-- Select the correct option --\n";
         cout << "1. Insert at the Beginning\n";
         cout << "2. Insert at the End\n";
